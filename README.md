@@ -6,4 +6,4 @@ Based on a simple debian/jessie files it adds the following binaries:
 - libav(+codecs, ffmpeg replacement)
 - audiowaveform (https://github.com/bbcrd/audiowaveform)
 - phantomjs (http://phantomjs.org/)
-- nodejs
+- nodejs 7.8.0
