@@ -1,6 +1,6 @@
 FROM debian:jessie
 RUN apt-get update --fix-missing
-RUN apt-get upgrade
+RUN apt-get upgrade -y
 RUN apt-get install -y python build-essential cmake git-core graphicsmagick imagemagick wget libfreetype6 \
   libfontconfig bzip2 curl libtheora0 poppler-utils unzip zip libav-tools libavcodec-extra \
   checkinstall libmad0-dev libsndfile1-dev libgd2-xpm-dev libboost-filesystem-dev libboost-program-options-dev libboost-regex-dev libid3tag0-dev libid3tag0
